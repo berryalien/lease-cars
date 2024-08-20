@@ -287,7 +287,26 @@ body {
   text-align: center;
 }
 
-.video__content{
+.video__content {
   margin: 0 auto;
   display: block;
+}
+
+.important {
+  padding-bottom: 150px;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+
+.important__text {
+max-width: 580px;
+margin: 0 auto 50px;
+}
+
+.important__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
